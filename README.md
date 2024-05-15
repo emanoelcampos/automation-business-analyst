@@ -1,4 +1,4 @@
-# Automação de Análise de Negócios
+# Análise de negócios de automação
 
 1. Visão geral do curso 
 2. Introdução à análise de negócios 
