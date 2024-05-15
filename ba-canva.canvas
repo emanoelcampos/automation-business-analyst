@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"495056735a4ec4ff","type":"text","text":"# Análise de negócios","x":-488,"y":-221,"width":380,"height":60,"color":"#3c2f2f"},
+		{"id":"be472cd377c43fea","type":"text","text":"## O que é análise de negócios?","x":-908,"y":-421,"width":250,"height":100,"color":"1"},
+		{"id":"915784271bf4f492","type":"text","text":"## Por que realizamos análise de negócios?","x":-468,"y":-421,"width":340,"height":100,"color":"1"},
+		{"id":"18f0922866ed0888","type":"text","text":"## Quando a análise de negócios é realizada?","x":36,"y":-421,"width":320,"height":100,"color":"1"},
+		{"id":"5f3a3e0ab515b5d9","type":"file","file":"automation-business-analyst/introducao/why.md","x":-456,"y":-675,"width":317,"height":134,"color":"6"},
+		{"id":"9ab473f6c09457fd","type":"file","file":"automation-business-analyst/introducao/what.md","x":-920,"y":-675,"width":275,"height":140,"color":"6"},
+		{"id":"cf2decf49d80c4b3","type":"file","file":"automation-business-analyst/introducao/when.md","x":8,"y":-680,"width":377,"height":150,"color":"6"},
+		{"id":"dfea2c91e54e7e76","type":"text","text":"## Quem pode realizar a análise de negócios?","x":-797,"y":-60,"width":309,"height":100,"color":"1"},
+		{"id":"f1c9ec53814b45a7","type":"text","text":"## Onde os resultados da análise de negócios são capturados?","x":-108,"y":-50,"width":408,"height":80,"color":"1"},
+		{"id":"2b1dd85957c49488","type":"file","file":"automation-business-analyst/introducao/who.md","x":-833,"y":180,"width":382,"height":140,"color":"6"},
+		{"id":"98b9e3300dc6a904","x":-136,"y":185,"width":464,"height":130,"color":"6","type":"file","file":"automation-business-analyst/introducao/where.md"}
+	],
+	"edges":[
+		{"id":"db3618592043991f","fromNode":"495056735a4ec4ff","fromSide":"left","toNode":"be472cd377c43fea","toSide":"bottom"},
+		{"id":"08f249184ba70cf6","fromNode":"495056735a4ec4ff","fromSide":"top","toNode":"915784271bf4f492","toSide":"bottom"},
+		{"id":"50e95d2f31b70499","fromNode":"915784271bf4f492","fromSide":"top","toNode":"5f3a3e0ab515b5d9","toSide":"bottom"},
+		{"id":"a197973b54d93030","fromNode":"495056735a4ec4ff","fromSide":"right","toNode":"18f0922866ed0888","toSide":"bottom"},
+		{"id":"cf67bdc0f54ba742","fromNode":"18f0922866ed0888","fromSide":"top","toNode":"cf2decf49d80c4b3","toSide":"bottom"},
+		{"id":"76901ad03d432827","fromNode":"be472cd377c43fea","fromSide":"top","toNode":"9ab473f6c09457fd","toSide":"bottom"},
+		{"id":"0daa79b96771238f","fromNode":"495056735a4ec4ff","fromSide":"right","toNode":"f1c9ec53814b45a7","toSide":"top"},
+		{"id":"56cc07024adf3597","fromNode":"495056735a4ec4ff","fromSide":"left","toNode":"dfea2c91e54e7e76","toSide":"top"},
+		{"id":"c566c5676e3d6b64","fromNode":"dfea2c91e54e7e76","fromSide":"bottom","toNode":"2b1dd85957c49488","toSide":"top"},
+		{"id":"75d2571607bddbb2","fromNode":"f1c9ec53814b45a7","fromSide":"bottom","toNode":"98b9e3300dc6a904","toSide":"top"}
+	]
+}
